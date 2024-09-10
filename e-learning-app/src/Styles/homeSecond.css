@@ -1,0 +1,75 @@
+.home-second {
+  display: flex;
+  gap: 50px;
+  padding: 0 50px;
+  position: relative;
+}
+
+.img-container img {
+  width: 30px;
+  height: 30px;
+}
+
+.grid-item h1 {
+  font-size: 18px;
+}
+
+.grid-item p {
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  text-wrap: wrap;
+  text-align: justify;
+}
+
+.ball3,
+.ball4 {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.ball3 {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(254, 117, 62);
+  top: 0;
+  right: 20px;
+}
+
+.ball4 {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(241, 201, 52);
+  bottom: 0;
+  right: 40px;
+}
+
+@media screen and (min-width: 780px) {
+  .home-second {
+    margin-top: 70px;
+    padding: 0 100px;
+    gap: 100px;
+  }
+
+  .grid-item h1 {
+    font-size: 24px;
+  }
+
+  .grid-item p {
+    font-size: 16px;
+  }
+
+  .ball3 {
+    width: 50px;
+    height: 50px;
+    right: 100px;
+  }
+
+  .ball4 {
+    width: 100px;
+    height: 100px;
+    bottom: -10px;
+    right: 300px;
+  }
+}

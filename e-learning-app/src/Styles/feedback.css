@@ -1,0 +1,40 @@
+.feedback-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px;
+  overflow: hidden;
+}
+
+.head-para-feedback {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.head-para-feedback p {
+  width: 80%;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+}
+
+.ball10 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-color: rgb(241, 201, 52);
+  position: absolute;
+  z-index: 1;
+}
+
+@media screen and (min-width: 781px) {
+  .head-para-feedback {
+    margin-top: 15px;
+    margin-bottom: 50px;
+  }
+  .head-para-feedback p {
+    width: 40%;
+    font-size: 16px;
+  }
+}

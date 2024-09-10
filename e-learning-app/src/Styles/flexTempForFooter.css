@@ -1,0 +1,35 @@
+.footer-flex-links h1 {
+  font-size: 16px;
+}
+
+.footer-flex-links {
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  height: 250px;
+  gap: 10px 0;
+}
+
+.footer-flex-links a {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+
+.footer-flex-links a:hover {
+  color: rgb(93, 72, 225);
+}
+
+@media screen and (min-width: 781px) {
+  .footer-flex-links {
+    width: 350px;
+  }
+
+  .footer-flex-links h1 {
+    font-size: 20px;
+  }
+
+  .footer-flex-links a {
+    font-size: 14px;
+  }
+}
