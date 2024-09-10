@@ -9,7 +9,7 @@ export const WeatherContext = createContext();
 export default function App() {
   const [cityName, setCityName] = useState("Chennai");
   const [weatherDetail, setWeatherDetail] = useState({});
-  let APIKEY = "7898ab9eda43705f06fd505f2b1c0a34";
+  let APIKEY = "provide your APIKEY here";
   useEffect(() => {
     axios
       .get(
